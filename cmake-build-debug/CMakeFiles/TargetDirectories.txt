@@ -1,0 +1,3 @@
+/Users/muayad/Desktop/Technikum/Semster2/c++/DeepMiner/cmake-build-debug/CMakeFiles/DeepMiner.dir
+/Users/muayad/Desktop/Technikum/Semster2/c++/DeepMiner/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/muayad/Desktop/Technikum/Semster2/c++/DeepMiner/cmake-build-debug/CMakeFiles/rebuild_cache.dir
