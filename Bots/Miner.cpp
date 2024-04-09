@@ -6,6 +6,11 @@
 
 Miner::Miner(std::string ability) {
     this->ability = ability;
-    this->coordinate->x = 0;
-    this->coordinate->y = 0;
-};
+    this->score = 0;
+    this->x = 0;
+    this->y = 0;
+}
+
+Miner* Miner::clone() const{
+    return new Miner(*this);
+}

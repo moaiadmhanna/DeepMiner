@@ -7,19 +7,18 @@
 #define X_AND_Y_SIZE 5
 #define Z_SIZE 10
 #define NUMBER_OF_BOTS 3
+#define NUMBER_OF_MINNING_BOTS 2
 #pragma once
 #include <iostream>
+#include <vector>
 using namespace std;
 
-typedef struct coordinates{
-    int x;
-    int y;
-} coordinates;
 
 void firstRow(int number);
 void secondRow(int layer);
 void closeRow();
 char moveChecker();
+void getAbilityInfo(std::string ability);
 
 
 

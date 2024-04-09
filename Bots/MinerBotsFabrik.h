@@ -11,6 +11,8 @@ class MinerBotsFabrik {
     public:
         MinerBotsFabrik();
         ~MinerBotsFabrik();
+        void minningBotsPrinter() const;
+        Miner* getMiner(int index);
         Miner* MinerBotPrototype[NUMBER_OF_BOTS];
 };
 

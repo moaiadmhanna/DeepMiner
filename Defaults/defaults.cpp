@@ -25,3 +25,14 @@ char moveChecker(){
     }
     return input;
 }
+void getAbilityInfo(std::string ability){
+  if(ability == "CoordinateSort"){
+      cout << "The Mining Bot sort all blocks in descending order and mine the first blocks";
+  }
+  else if (ability == "ValueExtraction"){
+      cout << "The Mining Bot mine the first two blocks";
+  }
+  else if(ability == "MedianFinder"){
+      cout << "The Mining bot mine the first three blocks and takes the median of there value";
+  }
+};

@@ -11,7 +11,11 @@ class Miner {
     public:
         Miner(std::string ability);
         std::string ability;
-        coordinates* coordinate = new coordinates();
+        int x;
+        int y;
+        char type;
+        int score;
+        Miner* clone() const;
 };
 
 
